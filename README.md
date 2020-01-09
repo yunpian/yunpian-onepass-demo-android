@@ -25,6 +25,7 @@
 #### 3. 从接口获取校验结果(开发者服务端)
 
 开发者服务端从客户端请求解析到相关参数后，接口能正确返回校验结果，即代表集成成功。
+
 [云片移动认证服务端接入文档](https://github.com/yunpian/yunpian-onepass-demo-android/blob/master/云片移动认证服务端接入文档.md)
 
 ## 2. 集成本机号码校验 SDK
