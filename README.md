@@ -28,7 +28,14 @@
 
 ## 2. 集成本机号码校验 SDK
 
-#### 手动导入 SDK
+#### 方式一：远程依赖集成 (推荐)
+需要确保主项目 build.gradle 文件中声明了 jcenter() 配置
+
+```
+implementation 'com.yunpian:onepass:1.0.4'
+```
+
+#### 方式二：手动导入 SDK
 
 将获取的 sdk 中的 aar 文件放到工程中的libs文件夹下，然后在 app 的 build.gradle 文件中增加如下代码
 
@@ -44,7 +51,7 @@ repositories {
 
 ```java
 // aar 名称和版本号以下载下来的最新版为准
-implementation(name: 'qipeng-onepass-v1.0.3', ext: 'aar')
+implementation(name: 'qipeng-onepass-v1.0.4', ext: 'aar')
 ```
 
 
